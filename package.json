@@ -14,6 +14,8 @@
     "gulp-util": "^3.0.8"
   },
   "dependencies": {
-    "global": "^4.3.2"
+    "global": "^4.3.2",
+    "jslint": "^0.12.0",
+    "yarn": "^1.9.4"
   }
 }
