@@ -81,7 +81,10 @@ a {
     font-weight: bold;
     text-decoration: none;
     border-bottom: 2px solid $gray-dark;
+}
 
+h2 {
+    padding-top: .5em;
 }
 
 .wrapper {
@@ -90,8 +93,8 @@ a {
 
     .header {
         .container {
-            max-width: 420px;
-            padding: 2em 0 6em;
+            max-width: 520px;
+            padding: 4em 1em 6em;
         }
     }
 
@@ -211,7 +214,7 @@ a {
     }
 
     @media (max-width: 800px) {
-        padding: 2em 0 0;
+        padding: 2em 0 ;
         font-size: 1.0em;
         margin-bottom: 0;
         overflow: hidden;
@@ -219,7 +222,7 @@ a {
         .header {
             .container {
                 max-width: 420px;
-                padding: 2em 1em 4em;
+                padding: 1em 1em 1em;
             }
         }
 
