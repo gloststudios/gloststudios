@@ -2,6 +2,7 @@
 $transition: 0.3s;
 $background: #EAECEF;
 $gray: #E9EBEE;
+$wallpaper-color: #747275;
 $gray-mid: #AEB4BB;
 $gray-dark: #4C5157;
 $black: #222222;
@@ -39,6 +40,7 @@ body {
     background-repeat: none;
     background-size: contain;
     overflow: none;
+    background-color: $wallpaper-color;
 
     &.visible {
         opacity: 1;
