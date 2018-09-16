@@ -27,6 +27,7 @@ $shadow: $black 1px 0 5px;
     padding: 0;
     max-width: 100%;
     color: $text-color;
+    outline: 1px solid red;
 }
 
 body {
@@ -210,7 +211,7 @@ a {
     }
 
     @media (max-width: 800px) {
-        padding: 2em 0 4em;
+        padding: 2em 0 0;
         font-size: 1.0em;
         margin-bottom: 0;
         overflow: hidden;
@@ -255,7 +256,7 @@ a {
                         bottom: auto;
                         left: auto;
                         opacity: 1;
-                        padding: 1em;
+                        padding: 0;
                         .enquiry-container {
 
                             // position: absolute;
@@ -303,8 +304,8 @@ a {
     }
 
     .container {
-        padding: 2em 1em 4em;
-        max-width: 620px;
+        padding: 2em 1em 3em;
+        max-width: 700px;
 
         p {
             margin-bottom: 2em;
