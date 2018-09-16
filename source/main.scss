@@ -219,19 +219,6 @@ h2 {
     }
 
     @media (max-width: 800px) {
-        .mobile-sticky {
-            outline: 1px solid red;
-            display: sticky;
-            top: 0;
-            left: 0;
-            width: 1em;
-            height: 1em;
-            i {
-                font-size: 3em;
-                color: $background;
-            }
-        }
-
         padding: 2em 0;
         font-size: 1.0em;
         margin-bottom: 0;
