@@ -80,6 +80,12 @@ a {
     font-weight: bold;
     text-decoration: none;
     border-bottom: 2px solid $gray-dark;
+    transition: $transition;
+    padding: .25em;
+
+    &:hover {
+        padding-bottom: .125em;
+    }
 }
 
 h2 {
@@ -92,7 +98,7 @@ h2 {
 
     .header {
         .container {
-            max-width: 520px;
+            max-width: 420px;
             padding: 4em 1em 6em;
         }
     }
@@ -213,6 +219,19 @@ h2 {
     }
 
     @media (max-width: 800px) {
+        .mobile-sticky {
+            outline: 1px solid red;
+            display: sticky;
+            top: 0;
+            left: 0;
+            width: 1em;
+            height: 1em;
+            i {
+                font-size: 3em;
+                color: $background;
+            }
+        }
+
         padding: 2em 0;
         font-size: 1.0em;
         margin-bottom: 0;
@@ -317,8 +336,7 @@ h2 {
 
         .social {
             display: inline;
-            padding: .25em;
-            border-bottom: 1px solid $gray;
+            border-bottom: 2px solid $gray;
             text-decoration: none;
             color: $background;
             transition: $transition;
