@@ -31,7 +31,7 @@ $shadow: $black 1px 0 5px;
 
 body {
     background-color: $background;
-    opacity: 0;
+    // opacity: 0;
     transition: $transition;
     background-image: url('../../assets/images/wallpaper.jpg');
     min-height: 100vh;
@@ -42,9 +42,9 @@ body {
     overflow: none;
     background-color: $wallpaper-color;
 
-    &.visible {
-        opacity: 1;
-    }
+    // &.visible {
+    //     opacity: 1;
+    // }
 
     &.no-scroll {
         overflow: hidden;
